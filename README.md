@@ -42,8 +42,8 @@ please let me know so I can add these.
 
 #### Known limitations
 
-The AVR uint24_t and int24_t cannot be printed without casting.
-
+- The AVR uint24_t and int24_t cannot be printed without casting.
+- Arduino-CI does not implement __int24 __uint24 so no tests can be done.
 
 
 ## Future

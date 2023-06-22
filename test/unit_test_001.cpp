@@ -23,30 +23,19 @@
 #include <ArduinoUnitTests.h>
 
 #include "Arduino.h"
-#include "integer24.h"
+//  #include "integer24.h"
 
 
 unittest_setup()
 {
-    fprintf(stderr, "INTEGER24_LIB_VERSION: %s\n", (char *) INTEGER24_LIB_VERSION);
+  // fprintf(stderr, "INTEGER24_LIB_VERSION: %s\n", (char *) INTEGER24_LIB_VERSION);
+  fprintf(stderr, "Arduino CI does not support __uint24 for AVR\n");
+  fprintf(stderr, "Tests are done in the examples.\n");
 }
+
 
 unittest_teardown()
 {
-}
-
-
-unittest(test_uint24_t)
-{
-  //  TODO
-  assertEqual(1, 1);
-}
-
-
-unittest(test_int24_t)
-{
-  //  TODO
-  assertEqual(1, 1);
 }
 
 
