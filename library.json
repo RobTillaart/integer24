@@ -1,6 +1,6 @@
 {
   "name": "integer24",
-  "keywords": "uint24, int24, 24 bits, datatype",
+  "keywords": "uint24_t, int24_t, 24 bits, datatype",
   "description": "ACS712 library for Arduino. ",
   "authors":
   [
